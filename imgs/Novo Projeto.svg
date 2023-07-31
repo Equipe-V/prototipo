@@ -1,0 +1,11 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 486 39">
+	<title>Novo Projeto-svg</title>
+	<defs>
+		<image id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAfQAAADIAQMAAAAk14GrAAAAAXNSR0IB2cksfwAAAANQTFRFAAAAp3o92gAAAAF0Uk5TAEDm2GYAAAAjSURBVHic7cExAQAAAMKg9U9tDQ+gAAAAAAAAAAAAAAAAeDYyAAABpldPmQAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		.s0 { fill: #000000 } 
+	</style>
+	<use id="img1" href="#img1" transform="matrix(1,0,0,1,-14,-159)"/>
+	<path id="Forma 1" class="s0" d="m-14.3 44c0 0 164.7-71.3 261.6-24.7 96.9 46.6 238.7-13.2 238.7-13.2v33.5z"/>
+</svg>
