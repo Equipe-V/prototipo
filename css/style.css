@@ -33,8 +33,7 @@ strong {
     margin: 0px;
     margin: auto;
     padding: 0px;
-    /*border: 1px solid black*/
-    ;
+    /*border: 1px solid black;*/
 }
 
 menu {
@@ -90,7 +89,7 @@ menu div nav a:hover::before {
     width: 70%; /* Largura da linha ao passar o mouse */
 }
 
-.bg-gradiente {
+.bg {
     background: var(--cor2);
 }
 
@@ -127,10 +126,11 @@ header #txt p{
     border-radius: 5px;
     color: #747474;
     font-size: 1em;
+    transition: .3s;
 }
 
 #cadastrar:hover, #logar:hover {
-    border: 3px solid var(--cor3);
+    border: 1px solid var(--cor3);
     background: transparent;
     box-shadow: 0px 0px 5px 1px var(--cor3);
     color: var(--cor4);
@@ -182,10 +182,6 @@ header div img {
 #container1 div h3{
     font-size: 1.5em;
     margin-bottom: 10px;
-}
-
-#bgmain {
-    background-image: linear-gradient(to left, #00B8D9, #0065FF);
 }
 
 div #container-section2 {
