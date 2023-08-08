@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
 * {
-    padding: 0px;
-    margin: 0px;
-    font-size: 1em;
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
+    font-size: 1em;
 }
 
 :root {
@@ -16,13 +15,10 @@
     --cor3: #09dafa;
     --cor4: #ebeeed;
 }
-
 body {
     background: rgb(0 11 23);
-    font-family: var(--fonteTitulo);
+    font-family: Arial, Helvetica, sans-serif;
 }
-
-
 main {
     position: absolute;
     top: 50%;
@@ -30,58 +26,53 @@ main {
     transform: translate(-50%, -50%);
     text-align: center;
 }
-
 main h1{
-    color: white;
-    margin-bottom: 40px;
-    font-size: 1.3em;
-    font-weight: 400;
+    color: var(--cor4);
+    margin-bottom: 20px;
 }
-
-#container {
-    background: rgb(236, 236, 236);
-    max-width: 350px;
-    min-width: 290px;
-    padding: 20px;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-}
-
-label{
-    color: black;
-}
-
-input{
-    box-sizing: border-box;
-    border: none;
-    padding: 5px;
-    border-radius: 50px;
-    margin: 5px 0px 20px 0px;
-    outline: none;
-}
-
-input:hover {
-    border: 1.9px solid var(--cor2);
-}
-
-input:focus{
-    border: 1.9px solid var(--cor2);
-}
-
-input::placeholder{
-    color: #b1b1b1;
-    font-size: .95em;
-    padding-left: 5px;
-}
-
 img {
     width: 90px;
 }
-
-#enviar {
+#container {
+    background: rgb(255, 255, 255);
+    width: 350px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+label{
+    color: #051320;
+    margin: 5px 0px;
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.btn{
+    border: none;
+    padding: 5px;
+    margin: 10px 0px;
+    outline: none;
+}
+.btn-input {
+    background: transparent;
+    border-bottom: 2px solid #051320;
+}
+.btn-input::placeholder{
+    color: var(--cor2);
+}
+.btn-submit{
     background-image: linear-gradient(to left, var(--cor3), rgb(0, 102, 255));
     color: var(--cor4);
     border: none;
+    width: 80%;
+    margin: auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.btn-submit:hover{
+
 }
